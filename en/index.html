@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,17 +11,31 @@
 
     <meta
         name="description"
-        content="Portfolio Filipa Woźniakowskiego - projekty webowe, HTML, CSS, JavaScript, Python i technologie backendowe."
+        content="Filip Woźniakowski's web developer portfolio showcasing projects, skills and experience in web development."
     >
 
-    <title>Filip Woźniakowski | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Filip Woźniakowski | Web Developer Portfolio</title>
 
     <link
         rel="icon"
         type="image/png"
-        href="assets/images/favicon.png"
+        href="../assets/images/favicon.png"
+    >
+
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Language versions -->
+
+    <link
+        rel="alternate"
+        hreflang="pl"
+        href="https://GRzan3K.github.io/Portfolio/"
+    >
+
+    <link
+        rel="alternate"
+        hreflang="en"
+        href="https://GRzan3K.github.io/Portfolio/en/"
     >
 
 </head>
@@ -29,72 +43,90 @@
 
 <body>
 
-    <!-- HEADER -->
+    <!-- =========================
+         HEADER
+    ========================== -->
 
     <header class="site-header">
 
-    <div class="header-container">
+        <div class="header-container">
 
-        <a href="#home" class="site-logo">
-            <img
-                src="assets/images/logo.png"
-                alt="Filip Woźniakowski logo"
-            >
-        </a>
+            <!-- Logo -->
 
-        <div class="header-right">
+            <a href="#home" class="site-logo">
 
-            <nav
-                class="main-navigation"
-                aria-label="Główna nawigacja"
-            >
+                <img
+                    src="../assets/images/logo.png"
+                    alt="Filip Woźniakowski logo"
+                >
 
-                <ul>
-                    <li>
-                        <a href="#home">
-                            Strona główna
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#projects">
-                            Projekty
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#about">
-                            O mnie
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#contact">
-                            Kontakt
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-
-
-            <a
-                href="en/"
-                class="language-switch"
-            >
-                EN
             </a>
+
+
+            <div class="header-right">
+
+                <!-- Navigation -->
+
+                <nav
+                    class="main-navigation"
+                    aria-label="Main navigation"
+                >
+
+                    <ul>
+
+                        <li>
+                            <a href="#home">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#projects">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about">
+                                About me
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+                <!-- Language switch -->
+
+                <a
+                    href="../"
+                    class="language-switch"
+                    aria-label="Switch to Polish"
+                >
+                    PL
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
+    </header>
 
-</header>
 
 
     <main>
 
-        <!-- HERO -->
+
+        <!-- =========================
+             HERO
+        ========================== -->
 
         <section
             id="home"
@@ -104,21 +136,22 @@
             <div class="hero-content">
 
                 <span class="hero-subtitle">
-                    Uczeń 5. klasy Technikum Informatycznego
+                    Final-year IT Technical School Student
                 </span>
 
+
                 <h1>
-                    Buduję aplikacje i strony internetowe
-                    z pasji do kodu.
+                    I build applications and websites
+                    driven by a passion for coding.
                 </h1>
 
+
                 <p>
-                    Rozwijam swoje umiejętności w tworzeniu
-                    nowoczesnych aplikacji internetowych.
-                    Skupiam się na logicznym backendzie,
-                    semantycznym frontendzie oraz ciągłym
-                    poznawaniu nowych technologii.
+                    I am developing my skills in modern web development.
+                    I focus on clean backend logic, semantic frontend code
+                    and continuously learning new technologies.
                 </p>
+
 
                 <div class="hero-buttons">
 
@@ -126,14 +159,15 @@
                         href="#projects"
                         class="btn btn-primary"
                     >
-                        Zobacz moje projekty
+                        View my projects
                     </a>
+
 
                     <a
                         href="#contact"
                         class="btn btn-secondary"
                     >
-                        Skontaktuj się
+                        Contact me
                     </a>
 
                 </div>
@@ -143,7 +177,10 @@
         </section>
 
 
-        <!-- PROJECTS -->
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
 
         <section
             id="projects"
@@ -156,20 +193,23 @@
                     Portfolio
                 </span>
 
+
                 <h2>
-                    Moje projekty
+                    My projects
                 </h2>
 
+
                 <p>
-                    Projekty, przy których rozwijam swoje
-                    umiejętności programistyczne i poznaję
-                    nowe technologie.
+                    Projects that help me develop my programming skills,
+                    solve real problems and explore new technologies.
                 </p>
 
             </div>
 
 
+
             <div class="projects-grid">
+
 
                 <!-- PROJECT 1 -->
 
@@ -179,16 +219,19 @@
                         01
                     </div>
 
+
                     <h3>
                         Cabinet Builder
                     </h3>
 
+
                     <p>
-                        Aplikacja webowa pomagająca obliczać
-                        elementy potrzebne do wykonania mebli
-                        na wymiar na podstawie podanych wymiarów.
+                        A web application designed to calculate furniture
+                        components based on cabinet dimensions entered
+                        by the user.
                         WORK IN PROGRESS
                     </p>
+
 
                     <div class="tags">
 
@@ -206,6 +249,7 @@
 
                     </div>
 
+
                     <div class="project-links">
 
                         <a
@@ -214,12 +258,13 @@
                             rel="noopener noreferrer"
                             class="project-link"
                         >
-                            Zobacz kod na GitHub →
+                            View code on GitHub →
                         </a>
 
                     </div>
 
                 </article>
+
 
 
                 <!-- PROJECT 2 -->
@@ -230,16 +275,18 @@
                         02
                     </div>
 
+
                     <h3>
                         Portfolio Website
                     </h3>
 
+
                     <p>
-                        Responsywne portfolio stworzone
-                        od podstaw jako miejsce prezentujące
-                        moje projekty, technologie oraz
-                        rozwój jako web developer.
+                        A responsive personal portfolio website built
+                        from scratch to showcase my projects, skills,
+                        technologies and progress as a web developer.
                     </p>
+
 
                     <div class="tags">
 
@@ -256,6 +303,7 @@
                         </span>
 
                     </div>
+
 
                     <div class="project-links">
 
@@ -277,7 +325,10 @@
         </section>
 
 
-        <!-- ABOUT -->
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
         <section
             id="about"
@@ -287,74 +338,84 @@
             <div class="section-heading">
 
                 <span class="section-label">
-                    O mnie
+                    About me
                 </span>
 
+
                 <h2>
-                    Kilka słów o mnie
+                    A few words about me
                 </h2>
 
             </div>
 
 
+
             <div class="about-intro">
 
                 <p>
-                    Cześć, mam na imię Filip, mam 19 lat
-                    i kończę 5. klasę technikum informatycznego.
-                    Programowanie zainteresowało mnie możliwością
-                    tworzenia własnych rozwiązań od podstaw
-                    i ciągłego rozwijania swoich umiejętności.
+                    Hi, my name is Filip. I am 19 years old and currently
+                    finishing my final year at an IT technical school.
+                    I became interested in programming because it allows
+                    me to create useful solutions from scratch and
+                    continuously improve my skills.
                 </p>
 
             </div>
 
 
+
             <div class="about-grid">
+
 
                 <!-- EXPERIENCE -->
 
                 <div class="about-box">
 
                     <h3>
-                        Doświadczenie i edukacja
+                        Experience and education
                     </h3>
+
 
 
                     <div class="timeline-item">
 
                         <h4>
-                            Web Development - projekty własne
+                            Web Development — Personal Projects
                         </h4>
 
+
                         <span class="timeline-date">
-                            2026 - obecnie
+                            2026 — Present
                         </span>
 
+
                         <p>
-                            Projektowanie i rozwijanie własnych
-                            aplikacji oraz stron internetowych.
-                            Rozwijam umiejętności w zakresie
-                            frontendu, backendu oraz pracy z Git.
+                            Designing and developing my own applications
+                            and websites. I am improving my frontend,
+                            backend and Git workflow skills through
+                            practical projects.
                         </p>
 
                     </div>
 
 
+
                     <div class="timeline-item">
 
                         <h4>
-                            Technikum Informatyczne
+                            IT Technical School
                         </h4>
 
+
                         <span class="timeline-date">
-                            Technikum
+                            Technical School
                         </span>
 
+
                         <p>
-                            Przygotowanie do uzyskania tytułu
-                            Technika Informatyka. Pomyślnie zdałem
-                            dotychczasową kwalifikację zawodową INF.02.
+                            Working toward the IT Technician qualification.
+                            I have successfully passed the INF.02
+                            vocational qualification exam.
                         </p>
 
                     </div>
@@ -362,52 +423,65 @@
                 </div>
 
 
+
                 <!-- STRENGTHS -->
 
                 <div class="about-box">
 
                     <h3>
-                        Mocne strony
+                        Strengths
                     </h3>
+
 
                     <ul class="soft-skills">
 
+
                         <li>
+
                             <strong>
-                                Analityczne myślenie
+                                Analytical thinking
                             </strong>
 
                             <p>
-                                Logiczne podejście do rozwiązywania
-                                problemów programistycznych.
+                                A logical and structured approach
+                                to solving programming and technical
+                                problems.
                             </p>
+
                         </li>
+
 
 
                         <li>
+
                             <strong>
-                                Szybka nauka
+                                Fast learner
                             </strong>
 
                             <p>
-                                Chętnie poznaję nowe technologie
-                                i szukam sposobów na rozwijanie
-                                swoich projektów.
+                                I enjoy learning new technologies
+                                and finding ways to improve my projects
+                                and programming skills.
                             </p>
+
                         </li>
+
 
 
                         <li>
+
                             <strong>
-                                Język angielski
+                                English
                             </strong>
 
                             <p>
-                                Poziom pozwalający na czytanie
-                                dokumentacji technicznej oraz
-                                wyszukiwanie rozwiązań.
+                                Comfortable reading technical documentation,
+                                searching for solutions and working with
+                                English-language programming resources.
                             </p>
+
                         </li>
+
 
                     </ul>
 
@@ -416,22 +490,30 @@
             </div>
 
 
-            <!-- SKILLS -->
+
+            <!-- =========================
+                 TECHNICAL SKILLS
+            ========================== -->
 
             <div class="skills-section">
 
                 <h3 class="skills-title">
-                    Umiejętności techniczne
+                    Technical skills
                 </h3>
 
 
+
                 <div class="skills-container">
+
+
+                    <!-- FRONTEND -->
 
                     <div class="skill-group">
 
                         <h4>
                             Front-end
                         </h4>
+
 
                         <div class="tags">
 
@@ -452,11 +534,15 @@
                     </div>
 
 
+
+                    <!-- BACKEND -->
+
                     <div class="skill-group">
 
                         <h4>
-                            Back-end & Bazy danych
+                            Back-end & Databases
                         </h4>
+
 
                         <div class="tags">
 
@@ -481,11 +567,15 @@
                     </div>
 
 
+
+                    <!-- TOOLS -->
+
                     <div class="skill-group">
 
                         <h4>
-                            Narzędzia & Systemy
+                            Tools & Systems
                         </h4>
+
 
                         <div class="tags">
 
@@ -524,7 +614,10 @@
         </section>
 
 
-        <!-- CONTACT -->
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
 
         <section
             id="contact"
@@ -534,23 +627,29 @@
             <div class="section-heading">
 
                 <span class="section-label">
-                    Kontakt
+                    Contact
                 </span>
 
+
                 <h2>
-                    Porozmawiajmy
+                    Let's talk
                 </h2>
 
+
                 <p>
-                    Masz pytanie, propozycję współpracy albo
-                    chcesz porozmawiać o projekcie?
-                    Napisz do mnie.
+                    Have a question, a collaboration idea
+                    or want to discuss a project?
+                    Feel free to get in touch.
                 </p>
 
             </div>
 
 
+
             <div class="contact-box">
+
+
+                <!-- EMAIL -->
 
                 <div class="contact-email">
 
@@ -558,12 +657,16 @@
                         E-mail
                     </span>
 
+
                     <a href="mailto:twojemail@gmail.com">
                         filipwozniakowski974@gmail.com
                     </a>
 
                 </div>
 
+
+
+                <!-- SOCIAL LINKS -->
 
                 <div class="social-links">
 
@@ -577,7 +680,7 @@
 
 
                     <a
-                        href="https://www.linkedin.com/in/filip-wo%C5%BAniakowski-330073379/"
+                        href="https://www.linkedin.com/in/filip-woźniakowski-330073379"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -590,16 +693,13 @@
 
         </section>
 
-        <li class="leanguage-switch">
-            <a href="en/">
-                EN
-            </a>
-        </li>
-
     </main>
 
 
-    <!-- FOOTER -->
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer class="site-footer">
 
@@ -607,13 +707,14 @@
             &copy;
             <span id="current-year"></span>
             Filip Woźniakowski.
-            Wszelkie prawa zastrzeżone.
+            All rights reserved.
         </p>
 
     </footer>
 
 
-    <script src="script.js"></script>
+
+    <script src="../script.js"></script>
 
 </body>
 
