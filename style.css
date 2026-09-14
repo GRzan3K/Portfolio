@@ -1253,7 +1253,7 @@ textarea {
    MOBILE
 ======================================== */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     html {
         scroll-padding-top:
@@ -1262,8 +1262,17 @@ textarea {
 
 
     .header-container {
-        width:
-            92%;
+        min-height: auto;
+        padding: 18px 0;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-right {
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
     }
 
 
@@ -1420,12 +1429,3 @@ textarea {
     color: var(--accent-hover);
 }
 
-@media (max-width: 900px) {
-
-    .header-right {
-        flex-direction: column;
-
-        gap: 16px;
-    }
-
-}
