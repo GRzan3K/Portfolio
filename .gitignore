@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# VS Code - lokalne ustawienia edytora
+.vscode/
+
+# Logi
+*.log
+
+# Pliki środowiskowe / sekrety
+.env
+.env.*
